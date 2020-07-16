@@ -18,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
   background: url(${img}) no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   -webkit-font-smoothing: antialiased !important;
 }
 
